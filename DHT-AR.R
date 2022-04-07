@@ -1,3 +1,51 @@
+# DESCRIPTION ####
+# The following code will install all dependencies in R allowing for analysis to be performed in the paper Xu and Qadir et al.
+# This code was written and developed by Dr. Fahd Qadir PhD (mqadir@tulane.edu)
+# In order to utilize umap, which will work within a python v3.7 environment, install Anaconda3 in windows
+# Install and run R v4 (x64 bit) and RStudio v1.2.1335 (x64 bit) for running this code
+# Seurat is a multimodal single Cell RNA seq analysis algorithm created by
+# The Satija Lab. For more information please see: https://satijalab.org/seurat/
+
+# INSTALLATION ####
+# Please download and install Rtools 3.5 from http://cran.r-project.org/bin/windows/Rtools/
+install.packages("devtools")
+install.packages("pkgbuild")
+
+library(devtools)
+library(pkgbuild)
+find_rtools() # This should come back as true
+
+# Install additional packages
+install.packages("Matrix")
+install.packages("ggridges")
+install.packages("cowplot")
+install.packages('ggrepel')
+install.packages("R.utils")
+install.packages("gridExtra")
+install.packages("Seurat")
+install.packages("plotly")
+install.packages("clustree")
+install.packages('multtest')
+
+# Install the scRNAseq analysis package Seurat
+install.packages('Seurat') #This installs Seurat v3.0.0 as of 5/20/2019, if Seurat is updated direct installation to v3.0.0
+
+# Install the scRNAseq pseudotemporal analysis package Monocle
+# source("http://bioconductor.org/biocLite.R") #Monocle v2.8.0 is used
+# biocLite()
+# biocLite("monocle")
+
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+BiocManager::install("monocle")
+
+# Install multtest for Seurat
+BiocManager::install("multtest")
+
+# LOAD LIBRARIES ####
+# Restart Rstudio or R
+# Run the following code once you have Seurat installed
+
 # LOAD LIBRARIES ####
 # Restart Rstudio or R
 # Run the following code once you have Seurat installed
