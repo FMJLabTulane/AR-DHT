@@ -1,7 +1,6 @@
 # DESCRIPTION ####
 # The following code will install all dependencies in R allowing for analysis to be performed in the paper Xu and Qadir et al.
 # This code was written and developed by Dr. Fahd Qadir PhD (mqadir@tulane.edu)
-# In order to utilize umap, which will work within a python v3.7 environment, install Anaconda3 in windows
 # Install and run R v4 (x64 bit) and RStudio v1.2.1335 (x64 bit) for running this code
 # Seurat is a multimodal single Cell RNA seq analysis algorithm created by
 # The Satija Lab. For more information please see: https://satijalab.org/seurat/
