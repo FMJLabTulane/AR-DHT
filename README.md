@@ -73,7 +73,7 @@ Preliminary data-analyses involving n=3 ctrl + n=3 DHT Tx deidentified human cad
 -
 
 # Contributors
-1. Mirza Muhammad Fahd Qadir - [Github](https://github.com/Dragonmasterx87) - [University of Miami](http://biomed.med.miami.edu/graduate-programs/molecular-cell-and-developmental-biology/student-profiles) - to contact please [Email](mailto:fahd.qadir@med.miami.edu)
+1. Mirza Muhammad Fahd Qadir - [Github](https://github.com/Dragonmasterx87) - to contact please [Email](mailto:fahd.qadir@med.miami.edu)
 
 # Lead Contacts
 1. Dr. Franck Mauvais-Jarvis MD PhD. - [Dept of Medicine, Tulane University](https://medicine.tulane.edu/departments/medicine-endocrinology-metabolism-diabetes-research-tulane-center-aging-tips-mentor) - to contact please [Email](mailto:fmauvais@tulane.edu)
