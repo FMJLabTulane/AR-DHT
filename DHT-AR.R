@@ -1604,36 +1604,7 @@ p2 <- LabelPoints(plot = p2, points = genes.to.label, repel = TRUE)
 plot_grid(p1, p2)
 
 
-
-# Extra
-# Installation of the latest released version
-install.packages('GOplot')
-library(GOplot)
-packageVersion("GOplot")
-
-gene.data <- read.csv("D:/R-Projects/DHT/Data output/beta.DHT.de.data.csv")
-up.go <- read.csv("D:/R-Projects/DHT/Data output/up/DHTGOup.csv")
-down.go <- read.csv("D:/R-Projects/DHT/Data output/Down/DHTGOdown.csv")
-
-head(gene.data)
-head(up.go)
-circ <- circle_dat(up.go, gene.data)
-circ
-process <- List('cellular response to decreased oxygen levels', "cellular response to hypoxia",
-                'response to unfolded protein', 'canonical glycolysis',
-                'glucose catabolic process to pyruvate', 'glycolytic process through glucose-6-phosphate',
-                'gluconeogenesis', 'cellular response to oxidative stress',
-                'protein stabilization ', 'amino acid transport ')
-
-process
-chord <- chord_dat(data = circ, genes = gene.data)
-chord <- chord_dat(data = circ, process = process)
-chord <- chord_dat(data = circ, genes = gene.data, process = process)
-GOChord(chord, space = 0.02, gene.order = 'logFC', gene.space = 0.25, gene.size = 5)
-
-
-GOBubble(circ, labels = 1)
-
+################################################### #
 ################################################### #
 ################################################### #
 
