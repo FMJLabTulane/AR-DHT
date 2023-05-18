@@ -72,6 +72,7 @@ Preliminary data-analyses involving n=3 ctrl + n=3 DHT Tx deidentified human cad
 # Citation
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7814544.svg)](https://doi.org/10.5281/zenodo.7814544)
 -
+Xu, W., Qadir, F., Nasteska, D., Mota de Sa, P., Gorvin, C. M., Blandino-Rosano, M., ... & Mauvais-Jarvis, F. Molecular Architecture of Androgen Receptor Pathways Amplifying Glucagon-Like Peptide-1 Insulinotropic Action in Male Pancreatic β-Cells. [Cell Reports](https://www.cell.com/cell-reports/fulltext/S2211-1247(23)00540-5).
 
 # Contributors
 1. Mirza Muhammad Fahd Qadir - [Github](https://github.com/Dragonmasterx87) - to contact please [Email](mailto:fahd.qadir@med.miami.edu)
